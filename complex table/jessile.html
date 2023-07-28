@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border: 2px solid #fff;
+  background: #b9f;
+  color: #fff;
+}
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.first-col {
+  width: 100px;
+   background: yellow; 
+}
+.last-col {
+  width: 100px;
+   background: red; 
+}
+  </style>
+<head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div style="overflow-x:auto;">
+<table>
+  <tr>
+    <td colspan="4" class="first-col">Contents</td>
+    <td colspan="6">Responsive Table</td>
+    <td colspan="4" class="last-col">Additional</td>
+  </tr>
+  <tr>
+    <td colspan="4" class="first-col">DIFFERENCE</td>
+    <td>IT PROG.
+      LANG/S</td>
+    <td>FRAME
+      WORKS</td>
+    <td rowspan="3" colspan="2">Front
+    End Dev.
+    "How things look"</td>
+    <td rowspan="3" colspan="2">Back End
+    "How things work"</td>
+    <td rowspan="3" colspan="2" class="last-col">Work in different languages & sides of website</td>
+  </tr>
+  <tr>
+    <td colspan="4" class="first-col">Front End</td>
+    <td>HTML, CSS, JS</td>
+    <td>React.js
+    jQuery</td>
+  </tr>
+  <tr>
+    <td colspan="4" class="first-col">Back End</td>
+    <td>Python
+    Java</td>
+    <td>Django
+    Rails</td>
+  </tr>
+  <tr>
+    <td colspan="4" class="first-col">Teamwork</td>
+    <td colspan="6">Work together to create awesome applications</td>
+    <td colspan="4" class="last-col">Skillset</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
